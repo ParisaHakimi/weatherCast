@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherCast-Javascript</title>
+    <!-- bootstrap css & js -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/master.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="style/TitleFont.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="d-flex flex-column h-100">
+            <div id="wMain" class="container">
+                <div class="row yellow">
+                    <div id="wTitle" class="col text-center">
+                        WeatherCast
+                    </div>
+                </div>
+                <form>
+                    <div class="form-row mt-5 input">
+                        <div class="col-7">
+                            <input type="text" class="inputValue form-control " placeholder="Enter a city">
+                        </div>
+                        <div class="col-4">
+                            <input class="button btn btn-primary" type="submit" value="Submit">
+                        </div>
+                    </div>
+                </form>
+                <div class="row pt-5">
+                    <div class="display d-flex flex-column container " id="wCurrent">
+                        <h1 class="name">-</h1>
+                        <p class="desc blue">description</p>
+                        <p class="temp green">° <span>F</span></p>
+                    </div>
+
+
+                    <!-- <div class="row">
+                        <div id="wCurrent" class="col">
+                            <div class="row">
+                                <div id="wTemp" class="col-sm  p-4">
+                                    <div id="location" class="row name col d-md-inline-block text-capitalize font-weight-bold ">
+                                        -, -
+                                    </div>
+                                    <div id="dayTime" class="row col d-md-inline-block
+                                    text-capitalize">Monday, 12:00 PM</div>
+                                    <div id="summary" class="row col d-md-inline-block text-capitalize">Mostly Sunny</div>
+                                    <div id="CurrentTemp" class="row col d-md-inline-block">90° F</div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="weather-icon">
+                                        <img class="img-fluid" src="images/MostlySunny.png" alt="MostlySunny">
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="weather.js"></script>
+
+</body>
+
+</html>

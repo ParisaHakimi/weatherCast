@@ -1,0 +1,54 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                @font-face {
+                    font-family: "Cotrell-CF";
+                    src: url(../fonts/TitleFont/cotrellcfextrabold-extrabold-webfont.ttf);
+                }
+                
+                body {
+                    font-family: "Nunito", sans-serif;
+                    height: 100%;
+                    background-color: cadetblue;
+                }
+                
+                .background {
+                    height: 100vh;
+                    min-height: 500px;
+                    background: url(../images/bg.jpeg) no-repeat center center;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                }
+                
+                #wMain {
+                    padding: 20px;
+                }
+                
+                #wCurrent {
+                    background-color: rgba(72, 72, 92, 0.5);
+                    color: #fdfdfd;
+                    resize: vertical;
+                }
+                
+                #wTitle {
+                    font-family: "Cotrell-CF", sans-serif;
+                    color: #777;
+                    font-size: 3em;
+                    -webkit-text-fill-color: #fff;
+                    -webkit-text-stroke-width: 1.5px;
+                    -webkit-text-stroke-color: rgba(72, 72, 92, 0.5);
+                    letter-spacing: 1px;
+                }
+                
+                .display {
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50%;
+                    height: 300px;
+                }
